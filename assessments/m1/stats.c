@@ -14,8 +14,8 @@
  *
  * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author <Rishabh Raj>
+ * @date <27/06/2024>
  *
  */
 
@@ -36,8 +36,20 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
-  /* Statistics and Printing Functions Go Here */
+ void print_statistics(unsigned char *data, unsigned int size);
+ void print_array(unsigned char *data, unsigned int size);
+
+unsigned char find_median(unsigned char *data, unsigned int size);
+
+unsigned char find_mean(unsigned char *data, unsigned int size);
+
+unsigned char find_maximum(unsigned char *data, unsigned int size);
+
+unsigned char find_minimum(unsigned char *data, unsigned int size);
+
+void sort_array(unsigned char *data, unsigned int size);
+ #endif /* STATS_H */
 
 }
 
-/* Add other Implementation File Code Here */
+
